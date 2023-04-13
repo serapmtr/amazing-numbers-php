@@ -2,6 +2,7 @@
 
 namespace Funtions\Helpers;
 
+
 function isNatural(int $number): bool 
 {
     if($number >= 0) {
@@ -13,10 +14,10 @@ function isNatural(int $number): bool
 function isEven(int $number): bool
 {
     if ($number % 2 == 0) {
-        echo "This number is Even.\n";
+        // echo "This number is Even.\n";
         return true;
     }
-    echo "This number is Odd.\n";
+    // echo "This number is Odd.\n";
     return false;
 }
 
