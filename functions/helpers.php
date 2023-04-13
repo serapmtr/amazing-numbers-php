@@ -8,7 +8,7 @@ function isNatural(int $number): bool
     if($number >= 0) {
         return true;
     }
-    echo "This number is not natural!";
+    echo "The first parameter should be a natural number or zero.\n";
     return false;
 }
 function isEven(int $number): bool
